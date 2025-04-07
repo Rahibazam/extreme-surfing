@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extreme Surfing | Kayaking</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rajdhani:wght@300;400;500;600;700&family=Squada+One&family=Teko:wght@300..700&display=swap"
+        rel="stylesheet">
+    <!-- tailwind/daisy -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- internal/custom styling -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <header class="w-5/5 lg:w-10/12 mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="lg:navbar-start flex items-center">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-full w-7" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <li>
+                                <details>
+                                    <summary>Home</summary>
+                                    <ul class="w-50 rounded-none text-base px-2">
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a href="index.html">Extreme Surfing</a>
+                                        </li>
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Kayaking</a></li>
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Scuba Diving</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li><a>About Us</a></li>
+                            <li><a>Services</a></li>
+                            <li>
+                                <details>
+                                    <summary>Pages</summary>
+                                    <ul class="w-50 rounded-none text-base px-2">
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Review</a></li>
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>FAQs</a></li>
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Team</a></li>
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Team</a></li>
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Service Details</a>
+                                        </li>
+                                        <li class="hover:bg-[#5856D6] hover:text-white"><a>Activity</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact Us</a></li>
+                            <li><button>
+                                    <a href="#" target="_blank"
+                                        class="flex items-center btn bg-[#5856D6] rounded-full text-white text-xl teko py-5 px-5"><span><img
+                                                class="w-4/5" src="icons/phone.png" alt=""></span> +0123456789</a>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="flex lg:justify-start justify-end lg:items-center  squada-one font-normal text-2xl"><img
+                            class="w-2/12 p-2 lg:p-0 lg:w-2/15 rounded-full mr-2" src="icons/favicon-1.png" alt=""><span
+                            class="hidden md:flex">Extreme Surfing</span></a>
+                </div>
+                <!-- desktop nav -->
+                <div class="w-5/5 hidden lg:flex gap-3 justify-center">
+                    <ul class="menu menu-horizontal px-1 uppercase rajdhani text-base space-x-3 font-medium">
+                        <li>
+                            <details>
+                                <summary>Home</summary>
+                                <ul class="w-50 rounded-none text-base px-2">
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a href="index.html">Extreme Surfing</a></li>
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Kayaking</a></li>
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Scuba Diving</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a>About Us</a></li>
+                        <li><a>Services</a></li>
+                        <li>
+                            <details>
+                                <summary>Pages</summary>
+                                <ul class="w-50 rounded-none text-base px-2">
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Review</a></li>
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>FAQs</a></li>
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Team</a></li>
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Team</a></li>
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Service Details</a></li>
+                                    <li class="hover:bg-[#5856D6] hover:text-white"><a>Activity</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- navbar btn -->
+                <div class="hidden lg:flex navbar-end">
+                    <button>
+                        <a href="#" target="_blank"
+                            class="flex items-center btn bg-[#5856D6] rounded-full text-white text-xl teko py-5 px-5"><span><img
+                                    class="w-4/5" src="icons/phone.png" alt=""></span> +0123456789</a>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
