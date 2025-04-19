@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extreme Surfing | Review</title>
+    <link rel="shortcut icon" href="icons/favicon-1-circle.png" type="image/x-icon">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rajdhani:wght@300;400;500;600;700&family=Squada+One&family=Teko:wght@300..700&display=swap"
+        rel="stylesheet">
+    <!-- tailwind/daisy -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- internal/custom styling -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <header class="w-5/5 lg:w-10/12 mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="lg:navbar-start flex items-center">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-full w-7" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 font-semibold rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <li>
+                                <details>
+                                    <summary>Home</summary>
+                                    <ul class="w-50 rounded-none text-base px-2">
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a
+                                                href="index.html">Extreme Surfing</a>
+                                        </li>
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a
+                                                href="kayaking.html">Kayaking</a></li>
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a
+                                                href="scuba-diving.html">Scuba Diving</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li>
+                                <details>
+                                    <summary>Pages</summary>
+                                    <ul class="w-50 rounded-none text-base px-2">
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Review</a></li>
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>FAQs</a></li>
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Team</a></li>
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Team</a></li>
+                                        <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Service Details</a>
+                                        </li>
+                                        <li class="hover:bg-[#5856D6] hover:text-white"><a>Activity</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact Us</a></li>
+                            <li><button>
+                                    <a href="#" target="_blank"
+                                        class="flex items-center btn bg-[#5856D6] rounded-full text-white text-xl teko py-5 px-5"><span><img
+                                                class="w-4/5" src="icons/phone.png" alt=""></span> <span
+                                            class="mt-1">+0123456789</span></a>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="flex lg:justify-start justify-end lg:items-center  squada-one font-normal text-2xl"><img
+                            class="w-2/12 p-2 lg:p-0 lg:w-2/15 rounded-full mr-2" src="icons/favicon-1.png" alt=""><span
+                            class="hidden md:flex">Extreme Surfing</span></a>
+                </div>
+                <!-- desktop nav -->
+                <div class="w-5/5 hidden lg:flex gap-3 justify-center">
+                    <ul class="menu menu-horizontal px-1 uppercase rajdhani text-base space-x-3 font-semibold">
+                        <li>
+                            <details>
+                                <summary>Home</summary>
+                                <ul class="w-50 rounded-none text-base px-2">
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a href="index.html">Extreme
+                                            Surfing</a></li>
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a
+                                            href="kayaking.html">Kayaking</a></li>
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a
+                                            href="scuba-diving.html">Scuba Diving</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li>
+                            <details>
+                                <summary>Pages</summary>
+                                <ul class="w-50 rounded-none text-base px-2">
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Review</a></li>
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>FAQs</a></li>
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Team</a></li>
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Team</a></li>
+                                    <li class="hover:bg-[#5856D6] w-full hover:text-white"><a>Service Details</a></li>
+                                    <li class="hover:bg-[#5856D6] hover:text-white"><a>Activity</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- navbar btn -->
+                <div class="hidden lg:flex navbar-end">
+                    <button>
+                        <a href="#" target="_blank"
+                            class="flex items-center btn bg-[#5856D6] rounded-full text-white text-xl teko py-5 px-5"><span><img
+                                    class="w-4/5" src="icons/phone.png" alt=""></span> <span
+                                class="mt-1">+0123456789</span></a>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- hero section -->
+        <section
+            class="bg-[url(images/reviews-hero-bg-img.jpg)] bg-neutral-600 bg-blend-overlay bg-center bg-cover bg-no-repeat">
+            <div class="w-4/5 lg:w-8/12 mx-auto py-50 text-center md:text-left">
+                <!-- hero text -->
+                <div class="text-white lg:w-3/5">
+                    <h1 class="text-7xl lg:text-[140px] font-bold teko uppercase">Reviews</h1>
+                    <p class="text-lg rajdhani text-white lg:w-4/5">Tuis autem vel eum iure reprehenderit rui in ea voluptate velit esse ruam nihil molestiae consequatur, vel illum.</p>
+                </div>
+                <!-- hero btn -->
+                <div class="mt-5">
+                    <button>
+                        <a href="#review" 
+                            class="flex items-center btn bg-[#5856D6] border-none rounded-full text-white text-xl teko py-7 px-10 uppercase shadow-none hover:scale-101 "><span
+                                class="mt-1">Learn More</span><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 20" stroke-width="2" stroke="currentColor" class="size-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 2 7.5 7.5-7.5 7.5" />
+                            </svg></a>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- reviews -->
+        <section class="bg-[#F2FAFF]">
+            <div class="w-4/5 md:w-8/12 mx-auto py-30" id="review">
+                <!-- text section -->
+                <div class="text-center">
+                    <h5 class="text-xl lg:text-2xl permanent-marker primary-color">Reviews</h5>
+                    <h3 class="text-5xl lg:text-7xl font-bold teko secondary-color mt-3 uppercase">Client Testimonials
+                    </h3>
+                </div>
+                <!-- carousel -->
+                <div>
+                    <div class="relative -bottom-5 md:-bottom-10 md:left-20">
+                        <img src="icons/review-quote.png" alt="">
+                    </div>
+                    <div class="carousel w-full pb-10">
+                        <div id="review1" class="carousel-item w-full">
+                            <div class="text-center mx-auto md:w-9/12">
+                                <img class="mx-auto" src="icons/5-stars.png" alt="">
+                                <p class="rajdhani text-lg mt-2 mb-3"></p>“Quia voluptas aspernatur aurodit aut fugit,
+                                beatae vitae dicta sunt explicabo nemo enim ipsam
+                                voluptatem sed neatae vitae dicta ripiscing elit, sed do euismod tempor incidunt labore
+                                are
+                                dolore magna aliqua ut enim a minim adipiscing elit, sed do euismod tempor incidunt
+                                labore
+                                minima veniam.”</p>
+                                <h5 class="text-xl font-bold teko secondary-color mt-3 uppercase">Paige Turner</h5>
+                                <p class="rajdhani text-base">Happy Client</p>
+                            </div>
+                        </div>
+                        <div id="review2" class="carousel-item w-full">
+                            <div class="text-center mx-auto md:w-9/12">
+                                <img class="mx-auto" src="icons/5-stars.png" alt="">
+                                <p class="rajdhani text-lg mt-2 mb-3"></p>“Quia voluptas aspernatur aurodit aut fugit,
+                                beatae vitae dicta sunt explicabo nemo enim ipsam
+                                voluptatem sed neatae vitae dicta ripiscing elit, sed do euismod tempor incidunt labore
+                                are
+                                dolore magna aliqua ut enim a minim adipiscing elit, sed do euismod tempor incidunt
+                                labore
+                                minima veniam.”</p>
+                                <h5 class="text-xl font-bold teko secondary-color mt-3 uppercase">Noah Lott</h5>
+                                <p class="rajdhani text-base">Happy Client</p>
+                            </div>
+                        </div>
+                        <div id="review3" class="carousel-item w-full">
+                            <div class="text-center mx-auto md:w-9/12">
+                                <img class="mx-auto" src="icons/5-stars.png" alt="">
+                                <p class="rajdhani text-lg mt-2 mb-3"></p>“Quia voluptas aspernatur aurodit aut fugit,
+                                beatae vitae dicta sunt explicabo nemo enim ipsam
+                                voluptatem sed neatae vitae dicta ripiscing elit, sed do euismod tempor incidunt labore
+                                are
+                                dolore magna aliqua ut enim a minim adipiscing elit, sed do euismod tempor incidunt
+                                labore
+                                minima veniam.”</p>
+                                <h5 class="text-xl font-bold teko secondary-color mt-3 uppercase">Justin Case</h5>
+                                <p class="rajdhani text-base">Happy Client</p>
+                            </div>
+                        </div>
+                        <div id="review4" class="carousel-item w-full">
+                            <div class="text-center mx-auto md:w-9/12">
+                                <img class="mx-auto" src="icons/5-stars.png" alt="">
+                                <p class="rajdhani text-lg mt-2 mb-3"></p>“Quia voluptas aspernatur aurodit aut fugit,
+                                beatae vitae dicta sunt explicabo nemo enim ipsam
+                                voluptatem sed neatae vitae dicta ripiscing elit, sed do euismod tempor incidunt labore
+                                are
+                                dolore magna aliqua ut enim a minim adipiscing elit, sed do euismod tempor incidunt
+                                labore
+                                minima veniam.”</p>
+                                <h5 class="text-xl font-bold teko secondary-color mt-3 uppercase">Anita Bath</h5>
+                                <p class="rajdhani text-base">Happy Client</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex w-full justify-center gap-4 py-2">
+                        <a href="#review1">
+                            <div class="avatar">
+                                <div
+                                    class="ring-primary ring-offset-[#5856D6] p-1 w-12 rounded-full ring ring-offset-0.5">
+                                    <img class="rounded-full" src="images/reviewer1.jpg" />
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#review2">
+                            <div class="avatar">
+                                <div
+                                    class="ring-primary ring-offset-[#5856D6] p-1 w-12 rounded-full ring ring-offset-0.5">
+                                    <img class="rounded-full" src="images/reviewer2.jpg" />
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#review3">
+                            <div class="avatar">
+                                <div
+                                    class="ring-primary ring-offset-[#5856D6] p-1 w-12 rounded-full ring ring-offset-0.5">
+                                    <img class="rounded-full" src="images/reviewer3.jpg" />
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#review4">
+                            <div class="avatar">
+                                <div
+                                    class="ring-primary ring-offset-[#5856D6] p-1 w-12 rounded-full ring ring-offset-0.5">
+                                    <img class="rounded-full" src="images/reviewer4.jpg" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-[#093E62] relative">
+        <img class="absolute top-80 right-10 lg:left-0 lg:top-60 w-3/5 lg:w-2/12" src="images/footer-image.png" alt="">
+        <div class="w-4/5 md:w-8/12 mx-auto py-20 lg:py-30 grid lg:grid-cols-4">
+            <!-- first column -->
+            <div class="space-y-4">
+                <div>
+                    <a class="flex lg:justify-start items-center text-white squada-one font-normal text-2xl"><img
+                            class="w-2/12 p-2 lg:p-0 lg:w-2/15 rounded-full mr-2" src="icons/favicon-1.png"
+                            alt=""><span>Extreme Surfing</span></a>
+                </div>
+                <div>
+                    <p class="rajdhani text-gray-300">Duis aute irure dolor in reprehenderit in voluptate velit cillum
+                        dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+            <!-- second column -->
+            <div class="mt-5 lg:mt-0 lg:ml-15">
+                <h5 class="font-bold teko text-xl uppercase text-white">Useful Links</h5>
+                <ul class="list-disc px-5 py-5 primary-color space-y-2">
+                    <li><a href="#" target="_blank"><span class="text-gray-300 hover:underline rajdhani">Home</span></a>
+                    </li>
+                    <li><a href="#" target="_blank"><span
+                                class="text-gray-300 hover:underline rajdhani">About</span></a></li>
+                    <li><a href="#" target="_blank"><span
+                                class="text-gray-300 hover:underline rajdhani">Services</span></a></li>
+                    <li><a href="#" target="_blank"><span class="text-gray-300 hover:underline rajdhani">Blog</span></a>
+                    </li>
+                    <li><a href="#" target="_blank"><span class="text-gray-300 hover:underline rajdhani">Contact
+                                Us</span></a></li>
+                </ul>
+            </div>
+            <!-- third column -->
+            <div class="mt-1 lg:mt-0 lg:ml-10">
+                <h5 class="font-bold teko text-xl uppercase text-white">Contact Info</h5>
+                <div class="space-y-3 py-5">
+                    <div class="flex items-center space-x-3">
+                        <img src="icons/footer-phone.png" alt="">
+                        <p class="text-gray-300">+5689 2589 6325</p>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <img src="icons/footer-email.png" alt="">
+                        <p class="text-gray-300">Info@seaquest.com</p>
+                    </div>
+                    <div class="flex items-baseline space-x-3">
+                        <img class="" src="icons/footer-location.png" alt="">
+                        <p class="text-gray-300">21 King Street Melbourne, 3000, Australia</p>
+                    </div>
+                </div>
+            </div>
+            <!-- fourth column -->
+            <div class="mt-1 lg:mt-0 lg:ml-10">
+                <h5 class="font-bold teko text-xl uppercase text-white">Social Networks</h5>
+                <div class="space-x-2 py-5">
+                    <button class="btn btn-circle border-none bg-[#FFFFFF0D] hover:bg-[#5856d6] shadow-none">
+                        <img src="icons/facebook.png" alt="">
+                    </button>
+                    <button class="btn btn-circle border-none bg-[#FFFFFF0D] hover:bg-[#5856d6] shadow-none">
+                        <img class="w-3.5" src="icons/linkedin.png" alt="">
+                    </button>
+                    <button class="btn btn-circle border-none bg-[#FFFFFF0D] hover:bg-[#5856d6] shadow-none">
+                        <img src="icons/instagram.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <hr class="text-[#FFFFFF26]">
+        <p class="text-gray-300 text-sm text-center py-3 rajdhani">Copyright 2024, seaquest.com All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
